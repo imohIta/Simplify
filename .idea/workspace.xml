@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="197186db-5b04-4a1c-9ae4-1aa1c73ed6a6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/kelvic_hms.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test4" afterPath="$PROJECT_DIR$/test4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kelvic_hms.iml" afterPath="$PROJECT_DIR$/.idea/kelvic_hms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/controllers/item.controller.php" afterPath="$PROJECT_DIR$/application/components/controllers/item.controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/controllers/login.controller.php" afterPath="$PROJECT_DIR$/application/components/controllers/login.controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/accountant.model.php" afterPath="$PROJECT_DIR$/application/components/models/accountant.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/admin.model.php" afterPath="$PROJECT_DIR$/application/components/models/admin.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/guest.model.php" afterPath="$PROJECT_DIR$/application/components/models/guest.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/item.model.php" afterPath="$PROJECT_DIR$/application/components/models/item.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/login.model.php" afterPath="$PROJECT_DIR$/application/components/models/login.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/logout.model.php" afterPath="$PROJECT_DIR$/application/components/models/logout.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/reception.model.php" afterPath="$PROJECT_DIR$/application/components/models/reception.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/sales.model.php" afterPath="$PROJECT_DIR$/application/components/models/sales.model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/models/test" afterPath="$PROJECT_DIR$/application/components/models/test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/parts/footer.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/parts/footer.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/parts/sidebar.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/parts/sidebar.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/addImpressPayIn.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/addImpressPayIn.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/addKitchenItem.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/addKitchenItem.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/allGuestCredits.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/allGuestCredits.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/approveReverseTransaction.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/approveReverseTransaction.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/cashierTransactions.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/cashierTransactions.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/changeRoom.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/changeRoom.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/checkInInvioce.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/checkInInvioce.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/creditsPaymentLog.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/creditsPaymentLog.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/editMenuItem.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/editMenuItem.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/editStockItem.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/editStockItem.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/flatRateCheckIn.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/flatRateCheckIn.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/lateCheckOut.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/lateCheckOut.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/login.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/login.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/loginOptions.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/loginOptions.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/policeReport.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/policeReport.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/posTransactions.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/posTransactions.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/printStockReview.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/printStockReview.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/receptionTransactions.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/receptionTransactions.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/salesBill.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/salesBill.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/stockReview.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/stockReview.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/tmpls/subchargesOptions.tmpl.php" afterPath="$PROJECT_DIR$/application/components/views/tmpls/subchargesOptions.tmpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/views/widgets/requisitionDetails.widget.php" afterPath="$PROJECT_DIR$/application/components/views/widgets/requisitionDetails.widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/appFactory.ini.php" afterPath="$PROJECT_DIR$/application/libs/appFactory.ini.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/database.class.php" afterPath="$PROJECT_DIR$/application/libs/database.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/functions.php" afterPath="$PROJECT_DIR$/application/libs/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/guest.class.php" afterPath="$PROJECT_DIR$/application/libs/guest.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/guestDatabase.class.php" afterPath="$PROJECT_DIR$/application/libs/guestDatabase.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/impressDatabase.class.php" afterPath="$PROJECT_DIR$/application/libs/impressDatabase.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/item.class.php" afterPath="$PROJECT_DIR$/application/libs/item.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/itemDatabase.class.php" afterPath="$PROJECT_DIR$/application/libs/itemDatabase.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/logger.class.php" afterPath="$PROJECT_DIR$/application/libs/logger.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/loggerDatabase.class.php" afterPath="$PROJECT_DIR$/application/libs/loggerDatabase.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/staff.class.php" afterPath="$PROJECT_DIR$/application/libs/staff.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libs/transactionDatabase.class.php" afterPath="$PROJECT_DIR$/application/libs/transactionDatabase.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/authenticator.class.php" afterPath="$PROJECT_DIR$/core/libs/authenticator.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/autoloader.class.php" afterPath="$PROJECT_DIR$/core/libs/autoloader.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/base/baseModel.class.php" afterPath="$PROJECT_DIR$/core/libs/base/baseModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/base/baseView.class.php" afterPath="$PROJECT_DIR$/core/libs/base/baseView.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/error.class.php" afterPath="$PROJECT_DIR$/core/libs/error.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/funiFactory.ini.php" afterPath="$PROJECT_DIR$/core/libs/funiFactory.ini.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/registry.class.php" afterPath="$PROJECT_DIR$/core/libs/registry.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/router.class.php" afterPath="$PROJECT_DIR$/core/libs/router.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/libs/uri.class.php" afterPath="$PROJECT_DIR$/core/libs/uri.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/application/checkIn.js" afterPath="$PROJECT_DIR$/public/assets/js/application/checkIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r2.php" afterPath="$PROJECT_DIR$/r2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/peggy.html" afterPath="$PROJECT_DIR$/test/peggy.html" />
+    </list>
+    <ignored path="kelvic_hms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="kelvic_hms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="guest.model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/models/guest.model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="263" column="33" selection-start-line="263" selection-start-column="33" selection-end-line="263" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guestDatabase.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libs/guestDatabase.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="917" column="43" selection-start-line="917" selection-start-column="20" selection-end-line="917" selection-end-column="43" />
+              <folding>
+                <marker date="1485058432000" expanded="true" signature="1527:1602" placeholder="select * fro..guestPayments..." />
+                <marker date="1485058432000" expanded="true" signature="2429:2522" placeholder="select SUM(a..guestPayments..." />
+                <marker date="1485058432000" expanded="true" signature="2818:2865" placeholder="select * fro..guestDetails..." />
+                <marker date="1485058432000" expanded="true" signature="10178:10253" placeholder="update `gues..." />
+                <marker date="1485058432000" expanded="true" signature="15988:16080" placeholder="update `gues..." />
+                <marker date="1485058432000" expanded="true" signature="27457:27532" placeholder="select SUM(a..guestCredits..." />
+                <marker date="1485058432000" expanded="true" signature="27829:27911" placeholder="select SUM(a..guestCreditPayments..." />
+                <marker date="1485058432000" expanded="true" signature="28541:28586" placeholder="select disti..guestCredits..." />
+                <marker date="1485058432000" expanded="true" signature="28735:28807" placeholder="insert into guestMappings..." />
+                <marker date="1485058432000" expanded="true" signature="29062:29109" placeholder="select id fr..guestMappings..." />
+                <marker date="1485058432000" expanded="true" signature="29360:29387" placeholder="select * fro..guestBalances..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receptionDashboard.tmpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/receptionDashboard.tmpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guest.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libs/guest.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="348" column="60" selection-start-line="348" selection-start-column="60" selection-end-line="348" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoloader.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/libs/autoloader.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7470589">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesBill.tmpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/salesBill.tmpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="97" column="82" selection-start-line="97" selection-start-column="82" selection-end-line="97" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sales.model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/models/sales.model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="474" column="22" selection-start-line="474" selection-start-column="22" selection-end-line="474" selection-end-column="22" />
+              <folding>
+                <marker date="1485727662000" expanded="true" signature="1905:2162" placeholder="..." />
+                <marker date="1485727662000" expanded="true" signature="7271:7527" placeholder="..." />
+                <marker date="1485727662000" expanded="true" signature="12628:12948" placeholder="..." />
+                <marker date="1485727662000" expanded="true" signature="24795:25010" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receptionTransactions.tmpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/receptionTransactions.tmpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="284" column="70" selection-start-line="284" selection-start-column="70" selection-end-line="284" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/models/transaction.model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="124" column="27" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php_error.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../logs/php_error.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/changeUserDept.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/viewAllUsers.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/models/account.model.php" />
+        <option value="$PROJECT_DIR$/application/libs/user.class.php" />
+        <option value="$PROJECT_DIR$/application/components/controllers/accountant.controller.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/application/checkIn.js" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/checkInOptions.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/checkIn.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/flatRateCheckIn.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/checkInInvioce.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/impressAcctMgtReport.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/controllers/guest.controller.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/viewAllGuest.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/fetchGuestBalances.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/libs/database.class.php" />
+        <option value="$PROJECT_DIR$/application/components/views/parts/sidebar.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/deploymentOpeningStk.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/addItemToDept.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/libs/itemDatabase.class.php" />
+        <option value="$PROJECT_DIR$/application/components/models/stock.model.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/viewStock.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/libs/item.class.php" />
+        <option value="$PROJECT_DIR$/application/libs/posItem.class.php" />
+        <option value="$PROJECT_DIR$/application/libs/transaction.class.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/creditsPaymentLog.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/policeReport.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/models/accountant.model.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/stockReview.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/printStockReview.tmpl.php" />
+        <option value="$PROJECT_DIR$/core/libs/error.class.php" />
+        <option value="$PROJECT_DIR$/core/libs/uri.class.php" />
+        <option value="$PROJECT_DIR$/core/libs/bootstrap.class.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/login.tmpl.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/application/components/models/login.model.php" />
+        <option value="$PROJECT_DIR$/core/libs/router.class.php" />
+        <option value="$PROJECT_DIR$/application/components/models/admin.model.php" />
+        <option value="$PROJECT_DIR$/application/libs/transactionDatabase.class.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/posTransactions.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/libs/functions.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/cashierTransactions.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/models/guest.model.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/application/transactions.js" />
+        <option value="$PROJECT_DIR$/core/libs/database.class.php" />
+        <option value="$PROJECT_DIR$/core/libs/funiFactory.ini.php" />
+        <option value="$PROJECT_DIR$/../../logs/php_error.log" />
+        <option value="$PROJECT_DIR$/application/libs/guestDatabase.class.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/salesBill.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/components/models/sales.model.php" />
+        <option value="$PROJECT_DIR$/application/components/views/tmpls/receptionTransactions.tmpl.php" />
+        <option value="$PROJECT_DIR$/application/libs/guest.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1439" />
+    <option name="height" value="852" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kelvic_hms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kelvic_hms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kelvic_hms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kelvic_hms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kelvic_hms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cuploader" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/components/views/tmpls" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.sales.model.php">
+    <configuration default="false" name="sales.model.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kelvic_hms/application/components/models/sales.model.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.sales.model.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.sales.model.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="197186db-5b04-4a1c-9ae4-1aa1c73ed6a6" name="Default" comment="" />
+      <created>1448551542271</created>
+      <option name="number" value="Default" />
+      <updated>1448551542271</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="23" width="1439" height="852" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13672155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3269494" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.086156115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/posSalesForm.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="251" column="80" selection-start-line="251" selection-start-column="77" selection-end-line="251" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/application/sales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="160" column="46" selection-start-line="160" selection-start-column="32" selection-end-line="160" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/creditsLog.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667">
+          <caret line="92" column="51" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/creditsPaymentLog.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/policeReport.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.666666">
+          <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/controllers/account.controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/controllers/accountant.controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7214815">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/stockReview.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.333333">
+          <caret line="89" column="72" selection-start-line="89" selection-start-column="72" selection-end-line="89" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/accountant.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.415094">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/printStockReview.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-59.0">
+          <caret line="111" column="118" selection-start-line="111" selection-start-column="118" selection-end-line="111" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/error.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/application/ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="10" selection-start-line="42" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/application/checkIn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="36" selection-start-line="65" selection-start-column="25" selection-end-line="78" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/configs/config.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.16129032">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/appFactory.ini.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9237537">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/uri.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.792453">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/base/baseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/staff.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/utility/sanitizer.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6656891">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/login.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026392963">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/account.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="28" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/database.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1240" column="55" selection-start-line="1240" selection-start-column="55" selection-end-line="1240" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026392963">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/authenticator.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026392963">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/bootstrap.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26099706">
+          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/controllers/transaction.controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/logout.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/router.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026392963">
+          <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/transactionDatabase.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.703704">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/admin.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/posTransactions.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/controllers/guest.controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4222874">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/stock.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-310.66666">
+          <caret line="466" column="40" selection-start-line="466" selection-start-column="40" selection-end-line="466" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/controllers/stock.controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="173" column="82" selection-start-line="173" selection-start-column="72" selection-end-line="173" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/deploymentOpeningStk.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/database.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/transaction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="266" column="30" selection-start-line="266" selection-start-column="20" selection-end-line="266" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/login.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/funiFactory.ini.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052785926">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/application/transactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02538787">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../logs/php_error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/guest.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="263" column="33" selection-start-line="263" selection-start-column="33" selection-end-line="263" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/receptionDashboard.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/sales.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="474" column="22" selection-start-line="474" selection-start-column="22" selection-end-line="474" selection-end-column="22" />
+          <folding>
+            <marker date="1485727662000" expanded="true" signature="1905:2162" placeholder="..." />
+            <marker date="1485727662000" expanded="true" signature="7271:7527" placeholder="..." />
+            <marker date="1485727662000" expanded="true" signature="12628:12948" placeholder="..." />
+            <marker date="1485727662000" expanded="true" signature="24795:25010" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/receptionTransactions.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="284" column="70" selection-start-line="284" selection-start-column="70" selection-end-line="284" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/models/transaction.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="27" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/views/tmpls/salesBill.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="82" selection-start-line="97" selection-start-column="82" selection-end-line="97" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/guestDatabase.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="917" column="43" selection-start-line="917" selection-start-column="20" selection-end-line="917" selection-end-column="43" />
+          <folding>
+            <marker date="1485058432000" expanded="true" signature="1527:1602" placeholder="select * fro..guestPayments..." />
+            <marker date="1485058432000" expanded="true" signature="2429:2522" placeholder="select SUM(a..guestPayments..." />
+            <marker date="1485058432000" expanded="true" signature="2818:2865" placeholder="select * fro..guestDetails..." />
+            <marker date="1485058432000" expanded="true" signature="10178:10253" placeholder="update `gues..." />
+            <marker date="1485058432000" expanded="true" signature="15988:16080" placeholder="update `gues..." />
+            <marker date="1485058432000" expanded="true" signature="27457:27532" placeholder="select SUM(a..guestCredits..." />
+            <marker date="1485058432000" expanded="true" signature="27829:27911" placeholder="select SUM(a..guestCreditPayments..." />
+            <marker date="1485058432000" expanded="true" signature="28541:28586" placeholder="select disti..guestCredits..." />
+            <marker date="1485058432000" expanded="true" signature="28735:28807" placeholder="insert into guestMappings..." />
+            <marker date="1485058432000" expanded="true" signature="29062:29109" placeholder="select id fr..guestMappings..." />
+            <marker date="1485058432000" expanded="true" signature="29360:29387" placeholder="select * fro..guestBalances..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/guest.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="348" column="60" selection-start-line="348" selection-start-column="60" selection-end-line="348" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/libs/autoloader.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7470589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

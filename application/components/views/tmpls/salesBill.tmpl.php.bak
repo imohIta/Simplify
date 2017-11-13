@@ -1,0 +1,176 @@
+<?php 
+#check if user is logged in
+global $today;
+
+#if user not looged in
+if(!$registry->get('session')->read('loggedIn')){
+    $registry->get('uri')->redirect();
+}
+
+#logged in User
+$thisUser = unserialize($registry->get('session')->read('thisUser'));
+
+$baseUri = $registry->get('config')->get('baseUri');
+$session = $registry->get('session');
+
+#if invioce not to be shown
+if(!$session->read('showSalesBill')){
+	$registry->get('uri')->redirect($baseUri . '/guest/checkInOptions');
+}
+
+$data = $session->read('saleDetails' . $thisUser->id . $thisUser->get('activeAcct'));
+    //var_dump($data); die;
+
+    $url = $baseUri . '/sales/';
+    if($session->read('incompleteSaleTransId_' . $thisUser->id . '_' . $thisUser->get('activeAcct'))){
+        $url = $baseUri . '/sales/unposted';
+        $session->write('incompleteSaleTransId_' . $thisUser->id . '_' . $thisUser->get('activeAcct'), null);
+    }
+ 
+?>
+
+<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="<?php echo $baseUri; ?>/assets/css/bootstrap/bootstrap.css" /> 
+
+	<!-- Calendar Styling  -->
+    <!-- <link rel="stylesheet" href="<?php echo $baseUri; ?>/assets/css/plugins/calendar/calendar.css" /> -->
+    
+    <!-- Fonts  -->
+  
+    
+    <!-- Base Styling  -->
+    <link rel="stylesheet" href="<?php echo $baseUri; ?>/assets/css/app/app.v1.css" />
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    
+    <title><?php echo $registry->get('config')->get('appTitle'); ?></title>
+    <style>
+	html, body {
+        display: block; 
+        font-family: "Calibri";
+        margin: 0;
+    }
+
+    @page {
+      size: 21.59cm 13.97cm;
+    }
+	</style>
+
+    <div style="width:280px; margin:4px">
+
+    <div class="warper container-fluid" >
+        	
+          
+            
+                <div class="page-header2" style="padding-bottom:2px>
+                    <h3 class="no-margn" style="text-align:left; font-size:13pt"><strong>Kelvic Suites </strong><small>& Towers.</small></h3>
+                        <address style="text-align:left; font-size:11pt">
+                          Plot 107, Area C, New Owerri, <br>
+                          Owerri, Imo State
+                        </address>
+
+                        <dl style="margin-top:-4px">
+                          <dd style="font-size:11pt">Invoice No. : <?php echo generateTransId(); ?></dd>
+                          <dd style="font-size:11pt">Date : <?php echo dateToString(today()); ?></dd>
+                          <dd style="font-size:11pt">Time : <?php echo timeToString(time()); ?></dd>
+                          <?php
+                          if($data['guestType'] == 1){
+                            $room = new Room($data['roomId']);
+                          ?>
+                            <dd>Room No : <?php echo $room->no; ?></dd>
+                          <?php } ?>
+                        </dl>
+                </div>
+
+                <h3 style="text-align:left; font-size:12pt"><strong><?php echo $thisUser->role; ?> Bill</strong></h3>
+                
+                
+                
+                 <div class="row"> 
+                
+                <div class="panel panel-default" style="text-align:left">
+                    <div class="panel-body">
+                        <table id="tbl" class="table table-striped" style="width:200px; font-size:10pt;">
+                           <thead>
+                                <tr>
+                                  
+                                    <th>Desc.</th>
+                                    <th>Rate</th>
+                                    <th>Amt</th>
+                                </tr>
+                            </thead>	
+                                
+                            <tbody>
+                                <?php 
+                                $count = 1;
+                                $total = 0;
+                                foreach ($data['items'] as $row) {
+                                $total += $row['amt'];
+                                ?>
+                                <tr>
+                                    
+                                    <td><?php echo '( ' . $row['qty'] . ' ) ' . $row['itemName']; ?></td>
+                                    <td><?php echo number_format($row['price']); ?></td>
+                                    <td><?php echo number_format($row['amt']); ?></td>
+									<td>&nbsp;</td>
+                                </tr>
+                                <?php
+                                $count++;
+                                }
+                                ?>
+
+                                <tr>
+                                	<td colspan="2" style="font-size:11pt"><strong>Total Amount</strong></td>
+                                	<td colspan="2" style="font-size:11pt"><strong><?php echo number_format($total); ?></strong></td>
+                                </tr>
+                             
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+
+
+                <div id="print" class="row">
+                    <div class="col-lg-6"><button class="btn btn-warning" type="button" onclick="printInv('print');">Print Invoice</button></div>
+                    <div class="col-lg-6 text-right"><a href="<?php echo $url; ?>" class="btn btn-success" title="Back to Make Sales">Back</a></div>
+                </div>
+                    
+           </div>
+
+        </div>
+
+        </div>
+        <!-- Warper Ends Here (working area) -->
+
+
+    <?php 
+        $session->write('showSalesBill', null); 
+        $session->write('saleDetails' . $thisUser->id . $thisUser->get('activeAcct'), null);
+
+    ?>
+
+
+
+    <script src="<?php echo $baseUri; ?>/assets/js/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="<?php echo $baseUri; ?>/assets/js/plugins/underscore/underscore-min.js"></script>
+    <!-- Bootstrap -->
+    <script src="<?php echo $baseUri; ?>/assets/js/bootstrap/bootstrap.min.js"></script>
+    
+    <!-- Globalize -->
+    <script src="<?php echo $baseUri; ?>/assets/js/globalize/globalize.min.js"></script>
+    
+    <!-- NanoScroll -->
+    <script src="<?php echo $baseUri; ?>/assets/js/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+    
+	
+    
+    
+    <!-- Custom JQuery -->
+	<script src="<?php echo $baseUri; ?>/assets/js/app/custom.js" type="text/javascript"></script>
+
+	<script src="<?php echo $baseUri; ?>/assets/js/application/ctrl.js" type="text/javascript"></script>
+    
+
+    
+	
